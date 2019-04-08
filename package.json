@@ -1,21 +1,25 @@
 {
-  "name": "thegame-2048",
-  "version": "1.0.0.0",
-  "description": "A sample Node.js app",
-  "engines": {
-    "node": "10.x"
-  },
+  "name": "2048_game",
+  "version": "1.0.0",
+  "description": "herokus",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FerencziSamu/2048_game"
+    "url": "git+https://github.com/FerencziSamu/2048_game.git"
   },
   "keywords": [
-    "node",
-    "heroku",
+    "herokuss"
   ],
-  "license": "MIT"
+  "author": "Para",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FerencziSamu/2048_game/issues"
+  },
+  "homepage": "https://github.com/FerencziSamu/2048_game#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
