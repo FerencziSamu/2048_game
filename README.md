@@ -4,6 +4,9 @@ pandoc -o README.PDF README.md
 
 # Demo nginx in Docker
 
+I do not own any rights.
+Copied from here: https://github.com/ponsfrilus/2048nginx
+
 # Dockerfile
 ```
 #
