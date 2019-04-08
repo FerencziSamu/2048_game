@@ -1,1 +1,25 @@
-heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v83 -a my-app
+{
+  "name": "2048_game",
+  "version": "1.0.0",
+  "description": "herokus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerencziSamu/2048_game.git"
+  },
+  "keywords": [
+    "herokuss"
+  ],
+  "author": "Para",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FerencziSamu/2048_game/issues"
+  },
+  "homepage": "https://github.com/FerencziSamu/2048_game#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
