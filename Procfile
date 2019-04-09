@@ -1,1 +1,1 @@
-web: bash ./web/Rakefile
+web: bash ./Dockerfile
