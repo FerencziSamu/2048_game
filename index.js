@@ -6,7 +6,7 @@ res.statusCode = 200;
 
 res.setHeader('Content-Type', 'text/html');
 
-res.end('web/index');
+res.render('web/index');
 
 });
 
