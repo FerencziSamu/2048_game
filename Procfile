@@ -1,1 +1,1 @@
-web: bash ./Dockerfile
+web: bash ./start.sh
