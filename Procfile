@@ -1,1 +1,1 @@
-web: bash ./stiitops.2048nginx.service
+web: bash ./web/Rakefile
