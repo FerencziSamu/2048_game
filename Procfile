@@ -1,1 +1,1 @@
-web: bash ./web/js/application.js
+web: bash ./web/index.html
