@@ -4,7 +4,7 @@ var fs = require('fs');
 const server = http.createServer((req, res) => {
 res.statusCode = 200;
 res.setHeader('Content-Type', 'text/html');
-  fs.readFile('index.html', function(err, data){
+  fs.readFile('./web/index.html', function(err, data){
     if(err){
       return console.log(err);
     }
